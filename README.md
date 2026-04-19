@@ -2,6 +2,8 @@
 
 A geospatial analysis project that validates the location data accuracy of traffic collision records by matching them against their nearest feature (intersection or address) in the Toronto street network.
 
+There is also an Airflow ETL pipeline that applies the findings of this project. You can find it [here](https://github.com/imadsyed333/crashlog-geocode).
+
 ## Overview
 
 Collision datasets often include textual street-name fields (e.g., `stname1`, `stname2`) alongside coordinate data. This project investigates whether those two representations agree — i.e., whether the coordinates of a collision actually place it at the intersection or address named in the record.
