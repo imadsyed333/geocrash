@@ -12,9 +12,9 @@ Collision datasets often include textual street-name fields (e.g., `stname1`, `s
 
 | File                     | Description                                                                                   |
 | ------------------------ | --------------------------------------------------------------------------------------------- |
-| `data/collisions.csv`    | Traffic collision records with street names, coordinates, ward, and contributing-factor flags |
-| `data/intersections.csv` | City intersection centreline features with geometry and intersection descriptions             |
-| `data/addresses.csv`     | Toronto address features with geometry and other metadata                                     |
+| `collisions.csv`         | Traffic collision records with street names, coordinates, ward, and contributing-factor flags |
+| `intersections.csv`      | City intersection centreline features with geometry and intersection descriptions             |
+| `addresses.csv`          | Toronto address features with geometry and other metadata                                     |
 
 NOTE: You will have to obtain this data yourself through the [Toronto Open Data Portal](https://open.toronto.ca/).
 ## Project Structure
