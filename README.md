@@ -21,7 +21,7 @@ NOTE: You will have to obtain this data yourself through the [Toronto Open Data 
 
 ```
 geocrash/
-├── data/
+├── data/raw/
 │   ├── collisions.csv
 │   ├── intersections.csv
 |   └── addresses.csv
