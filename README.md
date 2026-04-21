@@ -1,4 +1,4 @@
-# GeoCrash
+# CrashPoint
 
 A geospatial analysis project that validates the location data accuracy of traffic collision records by matching them against their nearest feature (intersection or address) in the Toronto street network.
 
@@ -20,7 +20,7 @@ NOTE: You will have to obtain this data yourself through the [Toronto Open Data 
 ## Project Structure
 
 ```
-geocrash/
+crashpoint-notebook/
 ├── data/raw/
 │   ├── collisions.csv
 │   ├── intersections.csv
