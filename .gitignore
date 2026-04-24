@@ -2,3 +2,4 @@ addresses.csv
 collisions.csv
 intersections.csv
 .venv/
+data/
